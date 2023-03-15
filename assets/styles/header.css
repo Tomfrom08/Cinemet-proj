@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
+body {
+	margin: 0;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1E1E1E;
+	padding: 0px 10px 0px 10px;
+	
+}
+header img {
+	width: 35px;
+	height: 25px;
+	
+}
+
+.title-header h1 {
+	color: #FF3440 ;
+	font-family: 'Lobster', cursive;
+	margin: 0;
+	font-weight: 400;
+	padding-left: 10px;
+}
+.title-header {
+	display: flex;
+	align-items: center;
+}
+.openbtn1 {
+	display:none;
+}
+.sidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #202020;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.menu_sidebar {
+	
+	justify-content: center;
+	display: flex;
+	color: #FF3440;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	padding: 15px;
+	border-radius: 50px;
+}
+.sidebar a {
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: #ffffff;
+	display: block;
+	transition: 0.3s;
+	margin-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 10px;
+}
+.sidebar a:hover {
+	color: #c7c7c7;
+}
+
+.sidebar .closebtn {
+	position: absolute;
+	top: 0;
+	right: 145px;
+	font-size: 36px;
+	margin-right: 50px;
+}
+.openbtn {
+	cursor: pointer;
+	color: white;
+	height: 25px;
+}
+#burgerbutton {
+	transition: margin-right 0.5s;
+    width: fit-content;
+}
+.burgericon {
+	width: 25px;
+	height: 25px;
+	
+}
+@media screen and (min-width:1000px) {
+	header {
+		padding: 0px 20px 0px 20px;
+	}
+	header img {
+		width: 40px;
+		height: 30px;
+	}
+	.title-header h1 {
+		font-size: 35px;
+		padding-left: 20px;
+	}
+	.clienticon {
+		width: 35px;
+		height: 35px;
+	}
+	.openbtn {
+		display: none;
+	}
+	.openbtn1 {
+		display: flex;
+		height: 45px;
+		align-items: center;
+	
+	}
+	.frenchflag {
+		width: 40px;
+		height: 40px;
+		padding-right: 30px;
+	}
+	
+	
+	
+}
