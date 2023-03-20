@@ -23,13 +23,13 @@
                 <a href="">Corporate</a>
             </div>
             <div class="social-media">
-                <img src="../img/facebook.png" alt="">
-                <img src="../img/instagram.png" alt="">
-                <img src="../img/twitter.png" alt="">
-                <img src="../img/youtube.png" alt="">
+                <img src="assets/img/facebook.png" alt="">
+                <img src="assets/img/instagram.png" alt="">
+                <img src="assets/img/twitter.png" alt="">
+                <img src="assets/img/youtube.png" alt="">
             </div>
-            <div class="copyright">© 2010 - 2023 Tom’sFilm CO., LTD. Tous Droits Réservés.</div>
         </div>
+        <div class="copyright">© 2010 - 2023 Tom’sFilm CO., LTD. Tous Droits Réservés.</div>
     </footer>
 </body>
 </html>

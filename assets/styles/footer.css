@@ -9,9 +9,9 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    position: sticky;
-    bottom: 0;
+    
 }
+
 .footerwrap h4 {
     color: #FF3440;
     font-family: 'Lobster', cursive;
@@ -43,4 +43,21 @@ footer {
     padding: 10px;
     color: white;
 
+}
+@media screen and (min-width:1000px) {
+    .footerwrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerwrap h4 {
+        width: 21%;
+        font-size: 35px;
+        margin-inline: auto;
+    }
+    .social-media {
+        margin-inline: auto;
+    }
+
+    
 }

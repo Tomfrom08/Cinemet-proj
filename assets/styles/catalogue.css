@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+.up-pic {
+    background-image: url(../img/myke-simon-atsUqIm3wxo-unsplash.jpg);
+    height: 35vh;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.up-pic h2 {
+    margin: auto;
+}
